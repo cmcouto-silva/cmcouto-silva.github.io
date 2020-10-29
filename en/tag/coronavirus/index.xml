@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>coronavirus | Cainã Max Couto-Silva</title>
+    <link>https://cmcouto-silva.github.io/en/tag/coronavirus/</link>
+      <atom:link href="https://cmcouto-silva.github.io/en/tag/coronavirus/index.xml" rel="self" type="application/rss+xml" />
+    <description>coronavirus</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Cainã Max Couto-Silva</copyright><lastBuildDate>Thu, 29 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://cmcouto-silva.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>coronavirus</title>
+      <link>https://cmcouto-silva.github.io/en/tag/coronavirus/</link>
+    </image>
+    
+    <item>
+      <title>Coronavírus: Atualização dos casos e mortes no Brasil
+</title>
+      <link>https://cmcouto-silva.github.io/en/post/coronavirus-atualizacao-diaria-dos-casos-e-mortes-no-brasil/</link>
+      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://cmcouto-silva.github.io/en/post/coronavirus-atualizacao-diaria-dos-casos-e-mortes-no-brasil/</guid>
+      <description>&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Este post está &lt;strong&gt;inativo&lt;/strong&gt;. Para acompanhar as atualizações diárias de COVID-19, recomendo a &lt;a href=&#34;https://peixebabel.github.io/COVID-19/&#34;&gt;página do Peixe Babel&lt;/a&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&#34;gráficos-interativos-da-incidência-de-covid-19-no-brasil&#34;&gt;Gráficos Interativos da Incidência de COVID-19 no Brasil&lt;/h3&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Este é um post informativo sobre a incidência de coronavírus no Brasil, cujos dados utilizados foram retirados da &lt;a href=&#34;https://ourworldindata.org/coronavirus-source-data&#34; target=&#34;_blank&#34;&gt;Organização Mundial da Saúde&lt;/a&gt; e estão sendo atualizados diaramente (vide última atualização).&lt;/p&gt;
+&lt;p&gt;Os gráficos e as datas são gerados de forma automática através do download dos dados da OMS. Todos os gráficos deste post são interativos, portanto,  pode-se, por exemplo, desativar dados clicando nas legendas, e ampliar os gráficos.&lt;/p&gt;
+&lt;p&gt;Post atualizado pela última vez em: &lt;code&gt; 29 de outubro de 2020, 17:45h (Horário de Brasília - UTC-3)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;iframe scrolling=&#34;no&#34; width=&#34;100%&#34; height=&#34;545px&#34; src=&#34;https://cmcouto-silva.github.io/files/en/posts/covid19_daily_update/brazil.html&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&#34;gráficos-interativos-da-incidência-de-covid-19-no-mundo&#34;&gt;Gráficos Interativos da Incidência de COVID-19 no Mundo&lt;/h3&gt;
+&lt;p&gt;Além do Brasil, aprensento os dados dos 10 países com maiores índices de casos e mortes,
+totais e emergentes, &lt;br&gt;de COVID-19 no mundo:&lt;/p&gt;
+&lt;iframe scrolling=&#34;no&#34; width=&#34;100%&#34; height=&#34;545px&#34; src=&#34;https://cmcouto-silva.github.io/files/en/posts/covid19_daily_update/central_south_america_map.html&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe scrolling=&#34;no&#34; width=&#34;100%&#34; height=&#34;545px&#34; src=&#34;https://cmcouto-silva.github.io/files/en/posts/covid19_daily_update/top10_map.html&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe scrolling=&#34;no&#34; width=&#34;100%&#34; height=&#34;545px&#34; src=&#34;https://cmcouto-silva.github.io/files/en/posts/covid19_daily_update/top10_cases.html&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe scrolling=&#34;no&#34; width=&#34;100%&#34; height=&#34;545px&#34; src=&#34;https://cmcouto-silva.github.io/files/en/posts/covid19_daily_update/top10_newcases.html&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe scrolling=&#34;no&#34; width=&#34;100%&#34; height=&#34;545px&#34; src=&#34;https://cmcouto-silva.github.io/files/en/posts/covid19_daily_update/top10_deaths.html&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe scrolling=&#34;no&#34; width=&#34;100%&#34; height=&#34;545px&#34; src=&#34;https://cmcouto-silva.github.io/files/en/posts/covid19_daily_update/top10_newdeaths.html&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;conclusões-automáticas&#34;&gt;Conclusões (automáticas)&lt;/h3&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h4 id=&#34;mundo&#34;&gt;Mundo&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;País com maior incidência de COVID-19 no mundo:
+&lt;code&gt;United States (n=8858024)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;País com mais novos casos de COVID-19 nos últimos 5 dias:
+&lt;code&gt;United States (n=364355)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;País com maior número absoluto de morte em pessoas diagnósticadas com COVID-19:
+&lt;code&gt;United States (n=227700)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;País com mais novos casos de morte em pessoas diagnósticadas com COVID-19 nos últimos 5 dias:
+&lt;code&gt;United States (n=3705)&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;américas-central-e-do-sul&#34;&gt;Américas Central e do Sul&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;País latino com maior incidência de COVID-19:
+&lt;code&gt;Brazil (n=5468270)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;País latino com mais novos casos de COVID-19 nos últimos 5 dias:
+&lt;code&gt;Brazil (n=114614)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;País latino com maior número absoluto de morte em pessoas diagnósticadas com COVID-19:
+&lt;code&gt;Brazil (n=158456)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;País latino com mais novos casos de morte em pessoas diagnósticadas com COVID-19 nos últimos 5 dias:
+&lt;code&gt;Brazil (n=1985)&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

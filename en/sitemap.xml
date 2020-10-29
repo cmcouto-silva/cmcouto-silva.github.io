@@ -3,23 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://cmcouto-silva.github.io/en/post/analise-planos-de-governo-bolsonaro-haddad/</loc>
-    <lastmod>2018-10-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cmcouto-silva.github.io/en/post/analise-planos-de-governo-bolsonaro-haddad/"
-                />
-  </url>
-  
-  <url>
     <loc>https://cmcouto-silva.github.io/en/post/</loc>
-    <lastmod>2018-10-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -34,7 +19,7 @@
   
   <url>
     <loc>https://cmcouto-silva.github.io/en/</loc>
-    <lastmod>2018-10-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -49,7 +34,7 @@
   
   <url>
     <loc>https://cmcouto-silva.github.io/en/categories/</loc>
-    <lastmod>2018-10-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -59,6 +44,126 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://cmcouto-silva.github.io/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cmcouto-silva.github.io/en/tag/coronavirus/</loc>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://cmcouto-silva.github.io/tag/coronavirus/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cmcouto-silva.github.io/en/tag/coronavirus/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cmcouto-silva.github.io/en/post/coronavirus-atualizacao-diaria-dos-casos-e-mortes-no-brasil/</loc>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://cmcouto-silva.github.io/post/coronavirus-atualizacao-diaria-dos-casos-e-mortes-no-brasil/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cmcouto-silva.github.io/en/post/coronavirus-atualizacao-diaria-dos-casos-e-mortes-no-brasil/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cmcouto-silva.github.io/en/tag/covid-19/</loc>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://cmcouto-silva.github.io/tag/covid-19/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cmcouto-silva.github.io/en/tag/covid-19/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cmcouto-silva.github.io/en/category/human-population/</loc>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://cmcouto-silva.github.io/category/human-population/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cmcouto-silva.github.io/en/category/human-population/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cmcouto-silva.github.io/en/category/python/</loc>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://cmcouto-silva.github.io/category/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cmcouto-silva.github.io/en/category/python/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cmcouto-silva.github.io/en/tag/python/</loc>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://cmcouto-silva.github.io/tag/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cmcouto-silva.github.io/en/tag/python/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cmcouto-silva.github.io/en/tags/</loc>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://cmcouto-silva.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cmcouto-silva.github.io/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cmcouto-silva.github.io/en/post/analise-planos-de-governo-bolsonaro-haddad/</loc>
+    <lastmod>2018-10-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cmcouto-silva.github.io/en/post/analise-planos-de-governo-bolsonaro-haddad/"
                 />
   </url>
   
@@ -104,21 +209,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://cmcouto-silva.github.io/en/category/r/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://cmcouto-silva.github.io/en/tags/</loc>
-    <lastmod>2018-10-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://cmcouto-silva.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cmcouto-silva.github.io/en/tags/"
                 />
   </url>
   

@@ -50,31 +50,91 @@
   <url>
     <loc>https://cmcouto-silva.github.io/tag/coronavirus/</loc>
     <lastmod>2020-10-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cmcouto-silva.github.io/en/tag/coronavirus/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://cmcouto-silva.github.io/tag/coronavirus/"
+                />
   </url>
   
   <url>
     <loc>https://cmcouto-silva.github.io/post/coronavirus-atualizacao-diaria-dos-casos-e-mortes-no-brasil/</loc>
     <lastmod>2020-10-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cmcouto-silva.github.io/en/post/coronavirus-atualizacao-diaria-dos-casos-e-mortes-no-brasil/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://cmcouto-silva.github.io/post/coronavirus-atualizacao-diaria-dos-casos-e-mortes-no-brasil/"
+                />
   </url>
   
   <url>
     <loc>https://cmcouto-silva.github.io/tag/covid-19/</loc>
     <lastmod>2020-10-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cmcouto-silva.github.io/en/tag/covid-19/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://cmcouto-silva.github.io/tag/covid-19/"
+                />
   </url>
   
   <url>
     <loc>https://cmcouto-silva.github.io/category/human-population/</loc>
     <lastmod>2020-10-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cmcouto-silva.github.io/en/category/human-population/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://cmcouto-silva.github.io/category/human-population/"
+                />
   </url>
   
   <url>
     <loc>https://cmcouto-silva.github.io/category/python/</loc>
     <lastmod>2020-10-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cmcouto-silva.github.io/en/category/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://cmcouto-silva.github.io/category/python/"
+                />
   </url>
   
   <url>
     <loc>https://cmcouto-silva.github.io/tag/python/</loc>
     <lastmod>2020-10-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cmcouto-silva.github.io/en/tag/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://cmcouto-silva.github.io/tag/python/"
+                />
   </url>
   
   <url>

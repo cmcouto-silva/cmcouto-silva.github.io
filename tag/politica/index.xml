@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>política | Cainã Max Couto-Silva</title>
+    <link>https://cmcouto-silva.github.io/tag/politica/</link>
+      <atom:link href="https://cmcouto-silva.github.io/tag/politica/index.xml" rel="self" type="application/rss+xml" />
+    <description>política</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt-br</language><copyright>© 2020 Cainã Max Couto-Silva</copyright><lastBuildDate>Sat, 27 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://cmcouto-silva.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>política</title>
+      <link>https://cmcouto-silva.github.io/tag/politica/</link>
+    </image>
+    
+    <item>
+      <title>Análise dos Planos de Governo de Bolsonaro e Haddad</title>
+      <link>https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/</link>
+      <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/</guid>
+      <description>&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;E com um pouco mais de 24h antes de iniciar as eleições ─ segundo turno ─ eis que resolvi publicar este post.&lt;/p&gt;
+&lt;p&gt;Dado a discrepância estética dos planos de Governo dos candidatos à presidência Jair Messias Bolsonaro e Fernando Haddad (vide figura 1), somado ao número um tanto quanto suspeitoso de páginas de ambos, resolvi aplicar a técnica de mineração de textos (do inglês, &lt;em&gt;data mining&lt;/em&gt;) a fim de verificar se a quantidade de conteúdo condiz com o número de páginas.&lt;/p&gt;
+&lt;!-- Insert figure 1 --&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figura-1-sumário-e-primeira-página-de-conteúdo-dos-planos-de-governo-dos-canditatos-obs-não-há-sumário-oficinal-no-plano-de-governo-do-candidato-jair-bolsonaro&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/planos_gov_huaa17e0f2bff0960855fa231767eacfaa_380060_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figura 1&amp;lt;/strong&amp;gt;. Sumário e primeira página de conteúdo dos planos de Governo dos canditatos. &amp;lt;em&amp;gt;Obs: Não há sumário oficinal no plano de Governo do candidato Jair Bolsonaro&amp;lt;/em&amp;gt;.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/planos_gov_huaa17e0f2bff0960855fa231767eacfaa_380060_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figura 1&lt;/strong&gt;. Sumário e primeira página de conteúdo dos planos de Governo dos canditatos. &lt;em&gt;Obs: Não há sumário oficinal no plano de Governo do candidato Jair Bolsonaro&lt;/em&gt;.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Para isso, utilizei &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;linguagem de programação R&lt;/strong&gt;&lt;/a&gt; e pacotes específicos para mineração de textos disponíveis publicamente. Todos os códigos estão disponíveis neste post. Os links para os planos de Governo utilizados constam nas referências.&lt;/p&gt;
+&lt;p&gt;Em suma, observa-se que o quantidade de páginas de longe condiz com a quantidade de palavras e caracteres em ambos os planos de Governo. Enquanto Jair Bolsonaro tem 81 páginas em seu plano, Fernando Haddad possui 61 páginas (fig. 2). Entretanto, as informações do plano de Governo do Bolsonaro não estão organizadas em estrutura de documento de texto, mas similar à uma apresentação feita em &amp;ldquo;Power Point&amp;rdquo;, com grandes letras e espaçamentos, enquanto uma organização estruturada pode ser observada no plano de Governo do Haddad.&lt;/p&gt;
+&lt;p&gt;Nas 81 páginas de Jair Bolsonaro, constam 4.100 palavras e 49.669 caracteres, enquanto nas 61 páginas do plano de Governo do Haddad, há 16.608 palavras, e 201.837 caracteres. Há aproximadamente 5-6 vezes mais caracteres por página no plano de Governo do Haddad do que no plano de Governo de Bolsonaro.&lt;/p&gt;
+&lt;!-- Insert fig 2 --&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figura-2-quantidade-de-páginas-palavras-e-caracteres-no-plano-de-governo-de-cada-candidato&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/fig2_hubcea94155579f20ec0ab0bb97937d3d2_52698_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figura 2&amp;lt;/strong&amp;gt;. Quantidade de páginas, palavras e caracteres no plano de Governo de cada candidato.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/fig2_hubcea94155579f20ec0ab0bb97937d3d2_52698_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;10px&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figura 2&lt;/strong&gt;. Quantidade de páginas, palavras e caracteres no plano de Governo de cada candidato.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Ao analisarmos quantas vezes aparecem as palavras-chave, essenciais aos planos de Governo, observa-se também uma discrepância entre ambos os planos. Uma séria de palavras foram analisadas conforme sua raiz, abrangendo, portanto, também seus derivados. As únicas palavras consideradas como um todo foram &amp;ldquo;saúde&amp;rdquo;, &amp;ldquo;segurança&amp;rdquo;, e &amp;ldquo;política&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Todas as palavras e variações, exceto pelo termo &amp;ldquo;corrupção&amp;rdquo;, foram muito mais frequentes no plano de Governo de Haddad. Particularmente, palavras referentes ao meio ambiente, direitos, educação, emprego, política, saúde, segurança e aspectos sociais aparecem todas com frequência de pelo menos duas vezes mais àquelas mencionadoas por Bolsonaro. Palavras condizentes à política aparecem com frequência superior à 22 vezes no plano de Haddad, comparado ao de Bolsonaro. Palavras e suas derivações praticamente não-citadas no plano de governo do Bolsonaro foram referentes às questões ambientais aos direitos. Contudo, a palavra &amp;ldquo;corrupção&amp;rdquo; aparece duas vezes a mais no plano de Jair Bolsonaro.&lt;/p&gt;
+&lt;!-- Insert figure 3 --&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figura-3-frequência-de-palavras-e-suas-derivações-nos-planos-de-governo&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/fig3_hu69e5a556e0930b8182f47a406d3a92ab_17722_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figura 3&amp;lt;/strong&amp;gt;. Frequência de palavras e suas derivações nos planos de Governo.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/fig3_hu69e5a556e0930b8182f47a406d3a92ab_17722_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1131&#34; height=&#34;687&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figura 3&lt;/strong&gt;. Frequência de palavras e suas derivações nos planos de Governo.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Por fim, as palavras mais frequentes (retirando-se preposições, advérbios e etc) podem ser observadas na figura abaixo. As palavras estão todas em letras minúsculas devido à execução das análises prévias.&lt;/p&gt;
+&lt;!-- Insert figure 4 --&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figura-4-nuvem-das-100-palavras-mais-frequentes-em-cada-plano-de-governo&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/fig4_huba0ad1e555da33d3201d938263b68b09_238441_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figura 4&amp;lt;/strong&amp;gt;. Nuvem das 100 palavras mais frequentes em cada plano de Governo.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/fig4_huba0ad1e555da33d3201d938263b68b09_238441_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;600&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figura 4&lt;/strong&gt;. Nuvem das 100 palavras mais frequentes em cada plano de Governo.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Evidentemente, não se deve atrelar o quanto ou não alguém tem de propostas com base apenas na quantidade de vezes que determinada palavra aparece no texto, há de se verificar o &lt;strong&gt;contexto&lt;/strong&gt;. Há palavra que não tem associação direta com nenhuma proposta, que possui associação &amp;ldquo;boa&amp;rdquo; ou &amp;ldquo;ruim&amp;rdquo;. Cabe a nós, portanto, utilizarmos o nosso &amp;ldquo;computador pessoal&amp;rdquo; que é o cérebro, para ler, processar e contextualizar as informações de ambos os planos de Governo. Lembre-se, também, que não se trata apenas de ti, mas de milhões de pessoas que vivem no Brasil.&lt;/p&gt;
+&lt;p&gt;Por fim, conclui-se que, quando comparados os planos de Governo, a quantidade de páginas não condiz com a quantidade de conteúdo, havendo Haddad mais conteúdo em seu plano de Governo, apesar de menos páginas. A qualidade dos conteúdos, contudo, cabem à vocês ler e decidir :)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Minha opinião pessoal: Deveríamos desconfiar de pouco conteúdo como proposta para uma nação, considerando o que há de fato não é uma proposta e sim uma enrrolação; somado ao fato de fugir dos debates em pleno período crítico de eleição, adquirir como estratégia o silêncio próprio e imposto à sua bancada política (como o vice-presidente e o economista), desconfiem. No mais, do que foi falado já foi dito o suficiente. Att.,&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;ref&#34;&gt;
+&lt;h4 id=&#34;referências&#34;&gt;Referências&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.pt.org.br/wp-content/uploads/2018/08/plano-de-governo_haddad-13_capas-1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plano de Governo do candidato Fernando Haddad  &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://flaviobolsonaro.com/PLANO_DE_GOVERNO_JAIR_BOLSONARO_2018.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plano de Governo do candidato Jair Bolsonaro  &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.R-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Core Team (2018). R: A language and environment for statistical computing. R Foundation for Statistical Computing.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;código&#34;&gt;Código&lt;/h4&gt;
+&lt;p&gt;O código deste post pode ser acessado &lt;a href=&#34;https://github.com/cmcouto-silva/blog_files/blob/master/content/blog/analise-dos-planos-de-governo-de-bolsonaro-e-haddad.Rmd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;neste link&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

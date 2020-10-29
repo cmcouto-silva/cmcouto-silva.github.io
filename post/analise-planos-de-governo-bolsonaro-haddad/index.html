@@ -1,0 +1,1475 @@
+<!DOCTYPE html><html lang="pt-br" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 4.8.0 for Hugo">
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Cainã Max   Couto da Silva
+">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Comparação dos planos de Governo de Bolsonaro e Haddad via mineração de textos.
+">
+
+  
+  <link rel="alternate" hreflang="en" href="https://cmcouto-silva.github.io/en/post/analise-planos-de-governo-bolsonaro-haddad/">
+  
+  <link rel="alternate" hreflang="pt-br" href="https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-59149558-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-59149558-2', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@cmcoutosilva">
+  <meta property="twitter:creator" content="@cmcoutosilva">
+  
+  <meta property="og:site_name" content="Cainã Max Couto-Silva">
+  <meta property="og:url" content="https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/">
+  <meta property="og:title" content="Análise dos Planos de Governo de Bolsonaro e Haddad | Cainã Max Couto-Silva">
+  <meta property="og:description" content="Comparação dos planos de Governo de Bolsonaro e Haddad via mineração de textos.
+"><meta property="og:image" content="https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/featured.png">
+  <meta property="twitter:image" content="https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/featured.png"><meta property="og:locale" content="pt-br">
+  
+    
+      <meta property="article:published_time" content="2018-10-27T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2018-10-27T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/"
+  },
+  "headline": "Análise dos Planos de Governo de Bolsonaro e Haddad",
+  
+  "image": [
+    "https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/featured.png"
+  ],
+  
+  "datePublished": "2018-10-27T00:00:00Z",
+  "dateModified": "2018-10-27T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Cainã Max   Couto da Silva\n"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Cainã Max Couto-Silva",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cmcouto-silva.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Comparação dos planos de Governo de Bolsonaro e Haddad via mineração de textos.\n"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Análise dos Planos de Governo de Bolsonaro e Haddad | Cainã Max Couto-Silva</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class=" ">
+
+  
+  
+  
+    <script>window.wcDarkLightEnabled = true;</script>
+  
+  
+    <script>const isSiteThemeDark = false;</script>
+  
+  
+  <script src="/js/load-theme.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Pesquisar</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Pesquisar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Cainã Max Couto-Silva</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Alterar navegação">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Cainã Max Couto-Silva</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publicações</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/cv/"><span>CV</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/contact/"><span>Contato</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Pesquisar"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown i18n-dropdown">
+        <a href="#" class="nav-link " data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-globe mr-1" aria-hidden="true"></i></a>
+        <div class="dropdown-menu">
+          <div class="dropdown-item dropdown-item-active">
+            <span>Português</span>
+          </div>
+          
+          <a class="dropdown-item" href="https://cmcouto-silva.github.io/en/post/analise-planos-de-governo-bolsonaro-haddad/">
+            <span>English</span>
+          </a>
+          
+        </div>
+      </li>
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Análise dos Planos de Governo de Bolsonaro e Haddad</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Oct 27, 2018
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 minutos de leitura
+  </span>
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/post/analise-planos-de-governo-bolsonaro-haddad/#disqus_thread"></a>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/r/">R</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p> </p>
+<p>E com um pouco mais de 24h antes de iniciar as eleições ─ segundo turno ─ eis que resolvi publicar este post.</p>
+<p>Dado a discrepância estética dos planos de Governo dos candidatos à presidência Jair Messias Bolsonaro e Fernando Haddad (vide figura 1), somado ao número um tanto quanto suspeitoso de páginas de ambos, resolvi aplicar a técnica de mineração de textos (do inglês, <em>data mining</em>) a fim de verificar se a quantidade de conteúdo condiz com o número de páginas.</p>
+<!-- Insert figure 1 -->
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-figura-1-sumário-e-primeira-página-de-conteúdo-dos-planos-de-governo-dos-canditatos-obs-não-há-sumário-oficinal-no-plano-de-governo-do-candidato-jair-bolsonaro">
+
+
+  <a data-fancybox="" href="/post/analise-planos-de-governo-bolsonaro-haddad/planos_gov_huaa17e0f2bff0960855fa231767eacfaa_380060_2000x2000_fit_lanczos_2.png" data-caption="&lt;strong&gt;Figura 1&lt;/strong&gt;. Sumário e primeira página de conteúdo dos planos de Governo dos canditatos. &lt;em&gt;Obs: Não há sumário oficinal no plano de Governo do candidato Jair Bolsonaro&lt;/em&gt;.">
+
+
+  <img data-src="/post/analise-planos-de-governo-bolsonaro-haddad/planos_gov_huaa17e0f2bff0960855fa231767eacfaa_380060_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="100%" height="100%">
+</a>
+
+
+  
+  
+  <figcaption>
+    <strong>Figura 1</strong>. Sumário e primeira página de conteúdo dos planos de Governo dos canditatos. <em>Obs: Não há sumário oficinal no plano de Governo do candidato Jair Bolsonaro</em>.
+  </figcaption>
+
+
+</figure>
+
+<p>Para isso, utilizei <a href="https://www.r-project.org/" target="_blank"><strong>linguagem de programação R</strong></a> e pacotes específicos para mineração de textos disponíveis publicamente. Todos os códigos estão disponíveis neste post. Os links para os planos de Governo utilizados constam nas referências.</p>
+<p>Em suma, observa-se que o quantidade de páginas de longe condiz com a quantidade de palavras e caracteres em ambos os planos de Governo. Enquanto Jair Bolsonaro tem 81 páginas em seu plano, Fernando Haddad possui 61 páginas (fig. 2). Entretanto, as informações do plano de Governo do Bolsonaro não estão organizadas em estrutura de documento de texto, mas similar à uma apresentação feita em &ldquo;Power Point&rdquo;, com grandes letras e espaçamentos, enquanto uma organização estruturada pode ser observada no plano de Governo do Haddad.</p>
+<p>Nas 81 páginas de Jair Bolsonaro, constam 4.100 palavras e 49.669 caracteres, enquanto nas 61 páginas do plano de Governo do Haddad, há 16.608 palavras, e 201.837 caracteres. Há aproximadamente 5-6 vezes mais caracteres por página no plano de Governo do Haddad do que no plano de Governo de Bolsonaro.</p>
+<!-- Insert fig 2 -->
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-figura-2-quantidade-de-páginas-palavras-e-caracteres-no-plano-de-governo-de-cada-candidato">
+
+
+  <a data-fancybox="" href="/post/analise-planos-de-governo-bolsonaro-haddad/fig2_hubcea94155579f20ec0ab0bb97937d3d2_52698_2000x2000_fit_lanczos_2.png" data-caption="&lt;strong&gt;Figura 2&lt;/strong&gt;. Quantidade de páginas, palavras e caracteres no plano de Governo de cada candidato.">
+
+
+  <img data-src="/post/analise-planos-de-governo-bolsonaro-haddad/fig2_hubcea94155579f20ec0ab0bb97937d3d2_52698_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="100%" height="10px">
+</a>
+
+
+  
+  
+  <figcaption>
+    <strong>Figura 2</strong>. Quantidade de páginas, palavras e caracteres no plano de Governo de cada candidato.
+  </figcaption>
+
+
+</figure>
+
+<p>Ao analisarmos quantas vezes aparecem as palavras-chave, essenciais aos planos de Governo, observa-se também uma discrepância entre ambos os planos. Uma séria de palavras foram analisadas conforme sua raiz, abrangendo, portanto, também seus derivados. As únicas palavras consideradas como um todo foram &ldquo;saúde&rdquo;, &ldquo;segurança&rdquo;, e &ldquo;política&rdquo;.</p>
+<p>Todas as palavras e variações, exceto pelo termo &ldquo;corrupção&rdquo;, foram muito mais frequentes no plano de Governo de Haddad. Particularmente, palavras referentes ao meio ambiente, direitos, educação, emprego, política, saúde, segurança e aspectos sociais aparecem todas com frequência de pelo menos duas vezes mais àquelas mencionadoas por Bolsonaro. Palavras condizentes à política aparecem com frequência superior à 22 vezes no plano de Haddad, comparado ao de Bolsonaro. Palavras e suas derivações praticamente não-citadas no plano de governo do Bolsonaro foram referentes às questões ambientais aos direitos. Contudo, a palavra &ldquo;corrupção&rdquo; aparece duas vezes a mais no plano de Jair Bolsonaro.</p>
+<!-- Insert figure 3 -->
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-figura-3-frequência-de-palavras-e-suas-derivações-nos-planos-de-governo">
+
+
+  <a data-fancybox="" href="/post/analise-planos-de-governo-bolsonaro-haddad/fig3_hu69e5a556e0930b8182f47a406d3a92ab_17722_2000x2000_fit_lanczos_2.png" data-caption="&lt;strong&gt;Figura 3&lt;/strong&gt;. Frequência de palavras e suas derivações nos planos de Governo.">
+
+
+  <img data-src="/post/analise-planos-de-governo-bolsonaro-haddad/fig3_hu69e5a556e0930b8182f47a406d3a92ab_17722_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="1131" height="687">
+</a>
+
+
+  
+  
+  <figcaption>
+    <strong>Figura 3</strong>. Frequência de palavras e suas derivações nos planos de Governo.
+  </figcaption>
+
+
+</figure>
+
+<p>Por fim, as palavras mais frequentes (retirando-se preposições, advérbios e etc) podem ser observadas na figura abaixo. As palavras estão todas em letras minúsculas devido à execução das análises prévias.</p>
+<!-- Insert figure 4 -->
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-figura-4-nuvem-das-100-palavras-mais-frequentes-em-cada-plano-de-governo">
+
+
+  <a data-fancybox="" href="/post/analise-planos-de-governo-bolsonaro-haddad/fig4_huba0ad1e555da33d3201d938263b68b09_238441_2000x2000_fit_lanczos_2.png" data-caption="&lt;strong&gt;Figura 4&lt;/strong&gt;. Nuvem das 100 palavras mais frequentes em cada plano de Governo.">
+
+
+  <img data-src="/post/analise-planos-de-governo-bolsonaro-haddad/fig4_huba0ad1e555da33d3201d938263b68b09_238441_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="800" height="600">
+</a>
+
+
+  
+  
+  <figcaption>
+    <strong>Figura 4</strong>. Nuvem das 100 palavras mais frequentes em cada plano de Governo.
+  </figcaption>
+
+
+</figure>
+
+<p>Evidentemente, não se deve atrelar o quanto ou não alguém tem de propostas com base apenas na quantidade de vezes que determinada palavra aparece no texto, há de se verificar o <strong>contexto</strong>. Há palavra que não tem associação direta com nenhuma proposta, que possui associação &ldquo;boa&rdquo; ou &ldquo;ruim&rdquo;. Cabe a nós, portanto, utilizarmos o nosso &ldquo;computador pessoal&rdquo; que é o cérebro, para ler, processar e contextualizar as informações de ambos os planos de Governo. Lembre-se, também, que não se trata apenas de ti, mas de milhões de pessoas que vivem no Brasil.</p>
+<p>Por fim, conclui-se que, quando comparados os planos de Governo, a quantidade de páginas não condiz com a quantidade de conteúdo, havendo Haddad mais conteúdo em seu plano de Governo, apesar de menos páginas. A qualidade dos conteúdos, contudo, cabem à vocês ler e decidir :)</p>
+<blockquote>
+<p>Minha opinião pessoal: Deveríamos desconfiar de pouco conteúdo como proposta para uma nação, considerando o que há de fato não é uma proposta e sim uma enrrolação; somado ao fato de fugir dos debates em pleno período crítico de eleição, adquirir como estratégia o silêncio próprio e imposto à sua bancada política (como o vice-presidente e o economista), desconfiem. No mais, do que foi falado já foi dito o suficiente. Att.,</p>
+</blockquote>
+<div class="ref">
+<h4 id="referências">Referências</h4>
+<ul>
+<li><a href="http://www.pt.org.br/wp-content/uploads/2018/08/plano-de-governo_haddad-13_capas-1.pdf" target="_blank" rel="noopener">Plano de Governo do candidato Fernando Haddad  </a></li>
+<li><a href="http://flaviobolsonaro.com/PLANO_DE_GOVERNO_JAIR_BOLSONARO_2018.pdf" target="_blank" rel="noopener">Plano de Governo do candidato Jair Bolsonaro  </a></li>
+<li><a href="https://www.R-project.org/" target="_blank" rel="noopener">R Core Team (2018). R: A language and environment for statistical computing. R Foundation for Statistical Computing.</a></li>
+</ul>
+</div>
+<h4 id="código">Código</h4>
+<p>O código deste post pode ser acessado <a href="https://github.com/cmcouto-silva/blog_files/blob/master/content/blog/analise-dos-planos-de-governo-de-bolsonaro-e-haddad.Rmd" target="_blank" rel="noopener">neste link</a>.</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/data-mining/">data mining</a>
+  
+  <a class="badge badge-light" href="/tag/politica/">política</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/&amp;text=An%c3%a1lise%20dos%20Planos%20de%20Governo%20de%20Bolsonaro%20e%20Haddad" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/&amp;t=An%c3%a1lise%20dos%20Planos%20de%20Governo%20de%20Bolsonaro%20e%20Haddad" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=An%c3%a1lise%20dos%20Planos%20de%20Governo%20de%20Bolsonaro%20e%20Haddad&amp;body=https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/&amp;title=An%c3%a1lise%20dos%20Planos%20de%20Governo%20de%20Bolsonaro%20e%20Haddad" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=An%c3%a1lise%20dos%20Planos%20de%20Governo%20de%20Bolsonaro%20e%20Haddad%20https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://cmcouto-silva.github.io/post/analise-planos-de-governo-bolsonaro-haddad/&amp;title=An%c3%a1lise%20dos%20Planos%20de%20Governo%20de%20Bolsonaro%20e%20Haddad" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://cmcouto-silva.github.io/"><img class="avatar mr-3 avatar-circle" src="/author/caina-max-couto-da-silva/avatar_hu079a22ea98e814d0c4a07baf781a1ffe_103547_270x270_fill_q90_lanczos_center.jpg" alt="Cainã Max   Couto da Silva
+"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://cmcouto-silva.github.io/">Cainã Max   Couto da Silva
+</a></h5>
+      <h6 class="card-subtitle">Doutorando</h6>
+      <p class="card-text">Biólogo aspirante à cientista de dados.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://facebook.com/cmcoutosilva" target="_blank" rel="noopener">
+        <i class="fab fa-facebook"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://instagram.com/cmcoutosilva" target="_blank" rel="noopener">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/cmcoutosilva" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/cmcouto-silva/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/cmcouto-silva" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+<section id="comments">
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  var disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "cmcouto-silva" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+</section>
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"Sem resultados","placeholder":"Pesquisar...","results":"Resultados encontrados"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projetos",
+        'publication' : "Publicações",
+        'talk' : "Palestras",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://cmcouto-silva.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/wowchemy.min.4c2bca31150ce93c5a5e43b8a50f22fd.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+  <p class="powered-by">
+    <a href="/license/">LICENSE: CC-BY-SA <br> <i class="fab fa-creative-commons fa-2x"></i><i class="fab fa-creative-commons-by fa-2x"></i><i class="fab fa-creative-commons-sa fa-2x"></i> </a><br>
+  </p>
+  
+
+  <p class="powered-by">
+    © 2020 Cainã Max Couto-Silva &middot; 
+    
+    Made with the <a href="https://cran.r-project.org/" target="_blank" rel="noopener"><i class="fab fa-r-project"></i> </a><a href="https://github.com/rstudio/blogdown" target="_blank" rel="noopener">blogdown</a> package and the 
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citação</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

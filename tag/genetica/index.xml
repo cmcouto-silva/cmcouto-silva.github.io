@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Genética | Cainã Max Couto-Silva</title>
+    <link>https://cmcouto-silva.github.io/tag/genetica/</link>
+      <atom:link href="https://cmcouto-silva.github.io/tag/genetica/index.xml" rel="self" type="application/rss+xml" />
+    <description>Genética</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt-br</language><copyright>© 2020 Cainã Max Couto-Silva</copyright><lastBuildDate>Mon, 24 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://cmcouto-silva.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Genética</title>
+      <link>https://cmcouto-silva.github.io/tag/genetica/</link>
+    </image>
+    
+    <item>
+      <title>Genes sob seleção natural nos Andes</title>
+      <link>https://cmcouto-silva.github.io/post/artigo_andes/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://cmcouto-silva.github.io/post/artigo_andes/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;No dia 24/08, foi publicado meu primeiro artigo científico. Logo após, houve uma entrevista que gerou uma matéria sobre o artigo, publicada na &lt;strong&gt;Revista FAPESP&lt;/strong&gt;, cujo link se encontra disponível &lt;a href=&#34;http://revistapesquisa.fapesp.br/2018/09/20/uma-adaptacao-singular-as-alturas/&#34; target=&#34;_blank&#34;&gt;aqui&lt;/a&gt;. No artigo, &lt;a href=&#34;https://www.nature.com/articles/s41598-018-31100-6/&#34; target=&#34;_blank&#34;&gt;publicado na  &lt;b&gt;Scientific Reports&lt;/b&gt;&lt;/a&gt;, mostra pela primera vez a importância de três genes para populações nativas Americanas que vivem em altas altitudes.&lt;/p&gt;
+&lt;p&gt;Verificou-se que determinadas variantes presentes nestes genes apresentam fortes sinais de seleção natural (positiva) em populações Andinas, que vivem em altas altitudes, locais caracterizados pela baixa pressão atmosférica (&lt;em&gt;i.e.&lt;/em&gt; baixa concentração de oxigênio).&lt;/p&gt;
+&lt;p&gt;Dentre a metodologia empregada, aplicou-se primeiramente um teste denominado &lt;strong&gt;PBS&lt;/strong&gt; (&lt;strong&gt;&lt;em&gt;Population Branch Statistics&lt;/em&gt;&lt;/strong&gt;), que se fundamenta na comparação dos índices de &lt;strong&gt;Fst&lt;/strong&gt; entre três populações: uma população-alvo e com uma população próxima para comparação direta, ditas como populações-irmãs, e uma terceira população ancestral de ambas. O princípio deste teste é bem simples: espera-se que as populações-irmãs sejam geneticamente mais próximas entre si quando comparadas à população ancestral, do contrário, eis um indício de seleção positiva.&lt;/p&gt;
+&lt;p&gt;Por considerar um cenário demográfico, PBS consiste em um teste amplamente utilizado para detectar indícios de seleção natural (sempre em conjunto com outros métodos). Através dele se identificou &lt;strong&gt;SNPs&lt;/strong&gt; potencialmente sobre seleção em cinco genes: &lt;em&gt;SP100&lt;/em&gt;, &lt;em&gt;TMEM38B&lt;/em&gt;, &lt;em&gt;AS3MT&lt;/em&gt;, &lt;em&gt;DUOX2&lt;/em&gt; e &lt;em&gt;CLC.&lt;/em&gt; Destes genes, &lt;em&gt;TMEM38B&lt;/em&gt; e &lt;em&gt;AS3MT&lt;/em&gt; já foram previamente identificados em outros estudos com populações de altas altitudes.&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-populations-branch-statistics-alelos-pertencentes-aos-genes-_sp100_-cromossomo-2-_tmem38b_-cromossomo-9-_as3mt_-cromossomo-10-_duox2_-cromossomo-15-e-_clc_-cromossomo-19-encontram-se-em-alta-frequência-na-população-andina-quando-comparadas-às-populações-amazônicas-vivendo-em-baixas-altitudes-considerando-povos-da-américa-central-como-grupo-externo-ancestral&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://cmcouto-silva.github.io/post/artigo_andes/fig1_hu5244fcc8d3f4ff5b5fb77f673d117706_170015_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Populations Branch Statistics.&amp;lt;/strong&amp;gt; Alelos pertencentes aos genes &amp;lt;em&amp;gt;SP100&amp;lt;/em&amp;gt; (cromossomo 2), &amp;lt;em&amp;gt;TMEM38B&amp;lt;/em&amp;gt; (cromossomo 9), &amp;lt;em&amp;gt;AS3MT&amp;lt;/em&amp;gt; (cromossomo 10), &amp;lt;em&amp;gt;DUOX2&amp;lt;/em&amp;gt; (cromossomo 15), e &amp;lt;em&amp;gt;CLC&amp;lt;/em&amp;gt; (cromossomo 19), encontram-se em alta frequência na população Andina, quando comparadas às populações amazônicas vivendo em baixas altitudes, considerando povos da América Central como grupo externo (ancestral)&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://cmcouto-silva.github.io/post/artigo_andes/fig1_hu5244fcc8d3f4ff5b5fb77f673d117706_170015_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;80%&#34; height=&#34;10%&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Populations Branch Statistics.&lt;/strong&gt; Alelos pertencentes aos genes &lt;em&gt;SP100&lt;/em&gt; (cromossomo 2), &lt;em&gt;TMEM38B&lt;/em&gt; (cromossomo 9), &lt;em&gt;AS3MT&lt;/em&gt; (cromossomo 10), &lt;em&gt;DUOX2&lt;/em&gt; (cromossomo 15), e &lt;em&gt;CLC&lt;/em&gt; (cromossomo 19), encontram-se em alta frequência na população Andina, quando comparadas às populações amazônicas vivendo em baixas altitudes, considerando povos da América Central como grupo externo (ancestral)
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Os resultados gerados pelo método PBS foram então corroborados com as análises seguintes. Primeiramente verificou-se que estas frequências elevadas nos Andes não aparentam ser devido à eventos demográficos, que poderiam também explicar a diferença estatisticamente significante entre os genótipos (vide figura 2 do artigo original). Posteriormente, testes baseados no &lt;strong&gt;desequilíbrio de ligação&lt;/strong&gt; (LD, do inglês, &lt;strong&gt;&lt;em&gt;linkage disequilibrium&lt;/em&gt;&lt;/strong&gt;) ─ &lt;strong&gt;&lt;em&gt;hard sweeps&lt;/em&gt;&lt;/strong&gt; ─ foram aplicados para identificar sinais de seleção positiva. Os testes de LD focam na extensão de &lt;em&gt;homozigose&lt;/em&gt; dos haplótipos (&lt;strong&gt;EHH&lt;/strong&gt;) que, por sua vez, possui como fundamento conceitos clássicos da biologia referentes à herança genética (muito importante, neste caso, o &lt;strong&gt;&lt;em&gt;crossing over&lt;/em&gt;&lt;/strong&gt;).&lt;/p&gt;
+&lt;p&gt;Em conjunto, as diferentes técnicas (PBS, baseado nos índices de Fst) e análises de EHH (&lt;em&gt;e.g.&lt;/em&gt; iHS, XP-EHH, baseadas no desequiĺibrio de ligação) aplicadas no trabalho corroboraram entre si apontando um mesmo conjunto de SNPs nos seguintes genes: &lt;em&gt;SP100&lt;/em&gt;, &lt;em&gt;DUOX2&lt;/em&gt; e &lt;em&gt;CLC.&lt;/em&gt; Dados estes achados, os genes identificados foram então melhor estudados, de forma que mais duas análises foram realizadas: correlação entre altitude e frequência dos alelos e avaliação da expressão gênica.&lt;/p&gt;
+&lt;p&gt;Por expressão gênica, entende-se o quanto um gene é expresso ─ e consequentemtente a proteína é produzida ─ em determinadas regiões do corpo, como tecidos e órgãos. Para isso, foi utilizado um banco de dados públicos que contém informações de milhares de genes, mostrando os respectivos níveis de expressão gênica em diferentes tecidos do corpo humano. Verificou-se com isso que indivíduos homozigotos para os alelos que foram encontrados sob seleção apresentam maior nível de expressão gênica para as respectivas proteínas ─ SP100 e DUOX2. No caso de &lt;em&gt;DUOX2&lt;/em&gt;, verificou-se que o gene é expresso principalmente na tireoide e pulmão, enquanto, &lt;em&gt;SP100&lt;/em&gt;, nos músculos esqueléticos. Maiores informações disponíveis na discussão sobre cada um destes genes, logo abaixo.&lt;/p&gt;
+&lt;p&gt;Observou-se que a frequência dos alelos sob seleção nos Andes é maior quando comparado às demais populações, que vivem em baixas altitudes. O quadro e o mapa abaixo ilustram bem este cenário.&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-alelos-sob-potencial-seleção-são-mais-frequentes-em-povos-vivendo-em-altas-altitudes-a-gene-_sp100_-b-gene-_duox2_-c-gene-_clc_-no-painel-à-esquerda-frequência-dos-alelos-maior-frequência-em-vermelho-dos-respectivos-genes-no-painel-à-direita-mostra-os-níveis-de-altitude-no-mapa-obs-esta-ilustração-corresponde-à-figura-3-do-artigo-original&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://cmcouto-silva.github.io/post/artigo_andes/fig3_hud142123c9390cc0a3ef1abdeb6d72945_675767_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Alelos sob potencial seleção são mais frequentes em povos vivendo em altas altitudes.&amp;lt;/strong&amp;gt; (A) Gene &amp;lt;em&amp;gt;SP100&amp;lt;/em&amp;gt;. (B) Gene &amp;lt;em&amp;gt;DUOX2&amp;lt;/em&amp;gt;. (C) Gene &amp;lt;em&amp;gt;CLC.&amp;lt;/em&amp;gt; No painel à esquerda, frequência dos alelos (maior frequência em vermelho) dos respectivos genes. No painel à direita, mostra os níveis de altitude no mapa. Obs: Esta ilustração corresponde à figura 3 do artigo original.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://cmcouto-silva.github.io/post/artigo_andes/fig3_hud142123c9390cc0a3ef1abdeb6d72945_675767_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;80%&#34; height=&#34;10%&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Alelos sob potencial seleção são mais frequentes em povos vivendo em altas altitudes.&lt;/strong&gt; (A) Gene &lt;em&gt;SP100&lt;/em&gt;. (B) Gene &lt;em&gt;DUOX2&lt;/em&gt;. (C) Gene &lt;em&gt;CLC.&lt;/em&gt; No painel à esquerda, frequência dos alelos (maior frequência em vermelho) dos respectivos genes. No painel à direita, mostra os níveis de altitude no mapa. Obs: Esta ilustração corresponde à figura 3 do artigo original.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;À fim de aumentar a confiabilidade destes dados, simulamos 10.000 populações de baixas altitudes com o mesmo tamanho e proporções genotípicas das populações originais do estudo (figura suplementar 2). Com isso, gerou-se um intervalo de confiança de 95% sobre o quanto esta frequência alélica deve variar nas populações de baixas altitudes. A frequência alélica nas populações de altas altitudes ─ Andinas ─ está muito além deste intervalo, fortalecendo assim a noção de que esta elevada frequência nas populações Andinas não é ao acaso, ou seja, que é provavelmente oriunda de um processo evolutivo.&lt;/p&gt;
+&lt;h3 id=&#34;sobre-os-novos-genes-candidatos-identificados&#34;&gt;Sobre os novos genes candidatos identificados&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;SP100&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Produz diferentes formas de proteínas que atuam no controle da atividade da p53, famosa por seu papel para evitar o estresse celular.&lt;br&gt;
+&lt;em&gt;SP100&lt;/em&gt; também está diferencialmente expresso nos músculos esqueléticos. Interessantemente, um membro da via de sinalização HIF (&lt;em&gt;Hypoxia-Inducible Factor&lt;/em&gt;), HIF-1, desempenha um papel essencial na regulação da homeostase do oxigênio, que inclui adaptações fisiológicas do músculo cardíaco e equelético em situações de hipóxia.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;DUOX2&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;DUOX2&lt;/em&gt; é expresso em células epiteliais de vários tecidos, incluindo as vias respiratórias e o pulmão. Ele participa da via de sinalização do peróxido de oxigênio (H&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;2&lt;/sub&gt;), que é necessária para produção do hormônio da tireoide.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;DUOX2&lt;/em&gt; também está envolvido na produção de espécies reativas ao oxigênio (ROS), um bioproduto normal do metabolismo do oxigênio, que é prejudicial em grandes quantidades (porém ainda assim produzido em pessoas saudáveis). Em situações de estresse celular, como na hipóxia e exposição à UV decorrente de altas altitudes, há um aumento da produção de ROS. Na discussão do artigo, levanta-se uma série de trabalhos que correlacionam &lt;em&gt;DUOX2&lt;/em&gt; com a hipóxia.&lt;/p&gt;
+&lt;p&gt;Ademais, cabe ressltar que ROS tem um papel importante na angiogênese (&lt;em&gt;i.e.&lt;/em&gt; formação de novos vasos sanguíneos) que, por sua vez, é uma importante resposta fisiológica ao estresse causado pela hipóxia.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CLC&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;CLC&lt;/em&gt; (galactina-10) é um gene pouco estudado, e o único estudo funcional relacionando com hipóxia até a data de publicação do artigo, mostra que a hipóxia aumenta o acúmulo de eosinófilos e produção de proteína CLC, produzindo um atraso na &lt;em&gt;apoptose&lt;/em&gt; (morte celular programada).&lt;/p&gt;
+&lt;p&gt;Proteínas muito similares à CLC possuem um papel essencial na gestação. Ainda que não tenha artigos científicos para corrobar a seguinte afirmação, é de conhecimento corrente que a gestação/parto é um problema comum em populações que vivem em altas altitudes. Portanto, talvez este seja um caminho que conecte CLC aos achados deste artigo.&lt;/p&gt;
+&lt;div class=&#34;ref&#34;&gt;
+&lt;h4 id=&#34;referências&#34;&gt;Referências&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Artigo publicado na &lt;strong&gt;&lt;em&gt;Scientific Reports&lt;/em&gt;&lt;/strong&gt;:&lt;br&gt;
+&lt;a href=&#34;https://www.nature.com/articles/s41598-018-31100-6&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.nature.com/articles/s41598-018-31100-6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Matéria sobre o artigo publicado na &lt;strong&gt;&lt;em&gt;Revista FAPESP&lt;/em&gt;&lt;/strong&gt;:&lt;br&gt;
+&lt;a href=&#34;http://revistapesquisa.fapesp.br/2018/09/20/uma-adaptacao-singular-as-alturas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://revistapesquisa.fapesp.br/2018/09/20/uma-adaptacao-singular-as-alturas/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

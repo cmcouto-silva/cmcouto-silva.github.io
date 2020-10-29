@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal | Cainã Max Couto-Silva</title>
+    <link>https://cmcouto-silva.github.io/tag/terminal/</link>
+      <atom:link href="https://cmcouto-silva.github.io/tag/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Terminal</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt-br</language><copyright>© 2020 Cainã Max Couto-Silva</copyright><lastBuildDate>Mon, 18 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://cmcouto-silva.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Terminal</title>
+      <link>https://cmcouto-silva.github.io/tag/terminal/</link>
+    </image>
+    
+    <item>
+      <title>Editor de Texto (Geany) Acoplado com o Terminal no Linux</title>
+      <link>https://cmcouto-silva.github.io/post/editor-de-texto-geany-acoplado-com-o-terminal-no-linux/</link>
+      <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://cmcouto-silva.github.io/post/editor-de-texto-geany-acoplado-com-o-terminal-no-linux/</guid>
+      <description>&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.geany.org/&#34; target=&#34;_blank&#34;&gt;&lt;b&gt;Geany&lt;/b&gt;&lt;/a&gt; é um editor de textos leve e rápido, capaz de carregar grandes arquivos de texto que outros editores usualmente não conseguem (e.g. Atom, Gedit, etc).&lt;/p&gt;
+&lt;p&gt;Neste tutorial, mostrarei como utilizar o Geany de forma integrada com o Terminal no Linux (mais especificamente, no Ubuntu) através de um processo fácil e que pode vir a ser bastante útil para algumas pessoas (meu próprio caso, por exemplo).&lt;/p&gt;
+&lt;p&gt;Para instalar o Geany e o plugin do terminal:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo apt update
+sudo apt install geany geany-xterm -y
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Caso queira instalar todos os plugins-padrão do Geany:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo apt update
+sudo apt install geany-plugins -y
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Feito isso, basta abrir o editor Geany e clicar com o botão direito do mouse no terminal, e selecionar a opção &amp;ldquo;preferências&amp;rdquo; (fig. 1). Recomendo ativar também outras opções, conforme ilustrado na figura 2.&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figura-1-selecione-preferências-com-o-botão-esquerdo-no-terminal-pressione-f4-para-ele-aparecer&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://cmcouto-silva.github.io/post/editor-de-texto-geany-acoplado-com-o-terminal-no-linux/fig1_hu8bfcf2e125fc7563978c0f319fd02b66_154265_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figura 1&amp;lt;/strong&amp;gt;. Selecione “preferências” com o botão esquerdo, no terminal (pressione F4 para ele aparecer)&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://cmcouto-silva.github.io/post/editor-de-texto-geany-acoplado-com-o-terminal-no-linux/fig1_hu8bfcf2e125fc7563978c0f319fd02b66_154265_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1844&#34; height=&#34;1025&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figura 1&lt;/strong&gt;. Selecione “preferências” com o botão esquerdo, no terminal (pressione F4 para ele aparecer)
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figura-2-deixar-selecionadas-as-opções-mostradas-nesta-figura&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://cmcouto-silva.github.io/post/editor-de-texto-geany-acoplado-com-o-terminal-no-linux/fig2_hucb797cf6f79e3fa63276be7e70ea77fd_55854_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figura 2.&amp;lt;/strong&amp;gt; Deixar selecionadas as opções mostradas nesta figura.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://cmcouto-silva.github.io/post/editor-de-texto-geany-acoplado-com-o-terminal-no-linux/fig2_hucb797cf6f79e3fa63276be7e70ea77fd_55854_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;792&#34; height=&#34;578&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figura 2.&lt;/strong&gt; Deixar selecionadas as opções mostradas nesta figura.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Para criar um atalho no teclado para enviar o comando do editor para o terminal, podemos seguir as seguintes instruções:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Edit &amp;gt; Preferências &amp;gt; Keybindigs &amp;gt; send to terminal&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A opção &amp;ldquo;send to terminal&amp;rdquo;&amp;quot; fica dentro da ação &amp;ldquo;Format&amp;rdquo;, conforme ilustrado na figura 3. Selecione-a e, em seguida, clique no botão &amp;ldquo;change&amp;rdquo; para adicionar/alterar o comando desejado, que será responsável por enviar o texto da linha (ou seleção) do editor de texto para o terminal.&lt;/p&gt;
+&lt;p&gt;No meu caso, configurei para a combinação das teclas &amp;ldquo;Ctrl + Enter&amp;rdquo;, que fica registrado como &amp;ldquo;&amp;lt;&lt;em&gt;Primary&lt;/em&gt;&amp;gt; &lt;em&gt;Return&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figura-3-adicionealtere-o-shortcut-para-enviar-o-texto-selecionado-no-editor-diretamente-para-o-terminal&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://cmcouto-silva.github.io/post/editor-de-texto-geany-acoplado-com-o-terminal-no-linux/fig3_hu7178e11d804c41951e624d726002a035_103303_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figura 3.&amp;lt;/strong&amp;gt; Adicione/altere o shortcut para enviar o texto selecionado no editor, diretamente para o Terminal.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://cmcouto-silva.github.io/post/editor-de-texto-geany-acoplado-com-o-terminal-no-linux/fig3_hu7178e11d804c41951e624d726002a035_103303_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;928&#34; height=&#34;804&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figura 3.&lt;/strong&gt; Adicione/altere o shortcut para enviar o texto selecionado no editor, diretamente para o Terminal.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Agora, digitando um comando no editor de texto e apertando &amp;ldquo;Ctrl + Enter&amp;rdquo;, o comando será enviado para o terminal que está conectado ao editor, porém, ainda não será executado, cabendo a nós ir para a sessão do terminal e executar lá. Para muitos, imagino, esse comportamento não seja satisfatório, sendo muito melhor que o comando enviado para o terminal seja prontamente executado no terminal. Podemos alterar esse comportamento no arquivo &lt;em&gt;.config&lt;/em&gt;, usualmente localizado na pasta &lt;strong&gt;&lt;em&gt;.Geany&lt;/em&gt;&lt;/strong&gt;, criada automaticamente dentro da pasta usuário &lt;code&gt;&amp;quot;~/.Geany/.config/geany_config&amp;quot;&lt;/code&gt;. Devemos alterar o padrão &amp;ldquo;send_selection_unsafe=false&amp;rdquo; para &amp;ldquo;true&amp;rdquo;, e podemos fazer isso utilizando o seguinte comando:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sed -i &amp;quot;s/send_selection_unsafe=false/send_selection_unsafe=true/&amp;quot; ~/.config/geany/geany.conf
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Pronto! Agora tens um editor de texto com interface gráfica que é leve, suficientemente veloz, e prontamente integrado com o terminal para o ambiente Linux. Bom proveito =)&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;div style=&#34;background-color: #cecece; padding: 10px 30px&#34;&gt;
+&lt;h3 id=&#34;bonus-&#34;&gt;Bonus !&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;Para adquirir um conjunto adicional de layouts para o editor Geany, podemos baixá-los via GitHub e torná-los disponíveis com os comandos:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone https://github.com/geany/geany-themes
+sudo cp geany-themes/colorschemes/*.conf /usr/share/geany/colorschemes/
+rm -rf geany-themes
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;br&gt;Para modificar o layout, basta abrir o Geany, acessar via &amp;ldquo;&lt;em&gt;View &amp;gt; Change Color Scheme&lt;/em&gt;&amp;rdquo;. Eu, por exemplo, gosto do tema &amp;ldquo;GitHub&amp;rdquo; para meu editor Geany, e consigo configurá-lo também via linha de comando, assim:&lt;/p&gt;
+&lt;p style=&#34;text-align: center; padding: 10px;&#34;&gt;`sed -i &#39;s/color_scheme=.*/color_scheme=github.conf/&#39; ~/.config/geany/geany.conf`.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;Neste tutorial foi utilizado Ubuntu 18.04 LTS como sistema operacional, porém muito provavelmente também funcionará em outras versões e sistemas Linux. No caso de outros sistemas operacionais, verifique se é necessário ajustar o &lt;strong&gt;caminho/&lt;em&gt;path&lt;/em&gt;&lt;/strong&gt; dos comandos mostrados neste tutorial.&lt;/p&gt;
+&lt;p&gt;Abraços,&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

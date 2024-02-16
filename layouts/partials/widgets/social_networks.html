@@ -1,0 +1,11 @@
+{{ $ := .root }}
+{{ $page := .page }}
+{{ $autolink := default true $page.Params.autolink }}
+{{ $data := site.Params }}
+
+<!-- Contact widget -->
+<div class="row contact-widget">
+	<div class="col-lg-10">
+		$page.Content
+	</div>
+</div>

@@ -1,0 +1,109 @@
+/* --------Navigation Bar--------- */
+
+.navbar .navbar-nav {
+  font-size: 16px;
+}
+
+a.nav-link {
+  text-transform: uppercase;
+}
+
+a.nav-link:hover {
+  background-color: #F7F7F7;
+}
+
+/* --------Blog posts--------- */
+
+.article-style {
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.article-style img {
+  vertical-align: top;
+  padding-bottom: 20px;
+  line-height: 0;
+}
+
+
+/*
+.article-style .section.level1 h1,
+.article-style .section.level2 h2,
+.article-style .section.level3 h3,
+.article-style .section.level3 h4,
+.article-style .section.level3 h5 {
+  line-height: 160%
+}
+*/
+
+/* --------Others--------- */
+
+body {
+  margin-top: 80px !important;
+}
+
+.ref {
+  text-align: left;
+}
+
+.aligncenter, img[src*="#aligncenter"] {
+  clear: both;
+  display: block;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+figcaption {
+  text-align: justify;
+  font-size: 14px;
+  line-height: 160%;
+  margin: 0px 20px;
+  padding: 0 0 0px;
+}
+
+.media.stream-item .article-style, .card-simple .article-style {
+  padding-top: 10px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+ul.ul-interests li {
+  font-size: 16px;
+}
+
+ul.ul-edu li .description p.course {
+  font-size: 16px;
+}
+
+ul.ul-edu li .description p.institution {
+  font-size: 14px;
+}
+
+blockquote {
+  color: gray;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+footer {
+  margin: 2rem 0 0;
+  padding: 2rem 0;
+}
+
+footer p {
+  font-weight: 500;
+  font-family: Arial;
+  font-size: 0.8rem;
+}
+
+.article-container {
+  text-align: justify;
+}
+
+a.card-link {
+  font-size: 0.95rem;
+}

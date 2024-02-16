@@ -180,12 +180,12 @@ social:
     icon_pack: fab
     link: https://github.com/cmcouto-silva
 
-  - icon: stack-overflow
-    icon_pack: fab
-    link: https://stackoverflow.com/users/7076819/cain%c3%a3-max-couto-silva
-    label: Follow me on Twitter
-    display:
-      header: true
+  # - icon: stack-overflow
+  #   icon_pack: fab
+  #   link: https://stackoverflow.com/users/7076819/cain%c3%a3-max-couto-silva
+  #   label: Follow me on Twitter
+  #   display:
+  #     header: true
 
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,

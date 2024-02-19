@@ -16,7 +16,7 @@ sections:
   - block: skills
     content:
       title: Skills
-      text: 'I am able to develop end-to-end AI solutions.' 
+      text: 'I develop end-to-end AI solutions' 
       
       # Choose a user to display skills from (a folder name within `content/authors/`)
       username: admin

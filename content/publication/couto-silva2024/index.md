@@ -1,8 +1,8 @@
 ---
 title: "Mitigating Nonproductive Time: A Novel Algorithm for Dsl Fault Detection"
 
-date: "2024-03-01"
-publication_types: ["article"]
+date: "2024-02-12"
+publication_types: ["article-journal"]
 
 authors:
 - admin
@@ -20,8 +20,8 @@ abstract: "<p style='text-align: justify;'>Digital slickline (DSL) has been intr
 
 summary: We built a data-driven framework for cable fault detection. We validated our approach using 60 random labeled files, achieving 98% for both accuracy and F1-score.
 
-publication: ""
-doi: ""
+publication: "OnePetro - Paper presented at the International Petroleum Technology (IPTC) Conference, Dhahran, Saudi Arabia, February 2024."
+doi: "https://doi.org/10.2523/IPTC-24515-MS"
 
 featured: false
 

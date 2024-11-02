@@ -19,12 +19,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Data Scientist
+role: Data Science Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Schlumberger
-    url: https://www.slb.com/
+  - name: UW-Madison
+    url: https://gibbs-lab.wisc.edu/caina-max-couto-silva.html
 
 # Short bio (displayed in user profile at end of posts)
 bio: PhD Data Scientist with 10+ years of experience.
@@ -33,6 +33,7 @@ bio: PhD Data Scientist with 10+ years of experience.
 interests:
   - Data Science
   - Machine Learning
+  - Deep Learning
   - Artificial Intelligence
 
 # Education to show in About widget

@@ -24,7 +24,32 @@ sections:
       columns: '1'
   
   - block: experience
-    id: experience
+    content:
+      title: Current experience
+      items:
+        ## -- UW -- ##
+        - title: Data Scientist Researcher
+          company: UW-Madison - Top 15 public universities in the US
+          company_url: 'https://gibbs-lab.wisc.edu/caina-max-couto-silva.html'
+          company_logo: uw-madison
+          location: Madison - WI, USA
+          date_start: '2024-08-01'
+          date_end: ''
+          description: |1-
+              Postdoctoral position.
+              
+              **Main activities:**  
+              - Support database development, statistical analysis, and AI applications; write up research results; and travel to Brazil to represent UW in meetings with stakeholders.
+              
+              **Deliveries:**
+              - Automation of multiple processes in database development, reducing the time of manual intervention.
+              - An ML classifier to assess data quality at scale, allowing for the first-time scalable quality check.
+              - Enhance a deep Learning model to count cattle in protected areas using high-resolution imagery. In collaboration with Google, this project empowers Brazilian prosecutors to act against non-compliant farmers, thereby reducing Amazon's deforestation.
+              
+    design:
+      columns: '2'
+
+  - block: experience
     content:
       title: Industry experience
       # Date format for experience
@@ -44,7 +69,7 @@ sections:
           company_logo: slb
           location: Houston - TX, USA (remote)
           date_start: '2023-01-01'
-          date_end: ''
+          date_end: '2024-07-31'
           description: |1-
               I work developing end-to-end AI SaaS products to our internal customers.
 
@@ -73,7 +98,7 @@ sections:
           company_logo: escola-dnc
           location: São Paulo - SP, Brazil (remote)
           date_start: '2021-10-01'
-          date_end: ''
+          date_end: '2024-07-31'
           description: |1-
             I have worked in multiple roles: facilitator, mentor, and consultant/instructor.
   

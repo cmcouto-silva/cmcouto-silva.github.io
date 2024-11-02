@@ -14,7 +14,7 @@ location: "Global - Remote"
 
 abstract: "<p style='text-align: justify;'>This webinar will introduce machine learning pipelines and discuss their importance in building efficient and robust workflows. It will explain how pipelines help to prevent data leakage and ensure model stability by allowing for proper separation of training, validation, and test data. Through a blend of theory and practice, it will provide and explain code chunks in Python using well-known open-source packages like scikit-learn (pipeline and column transformers) and feature-engine to ensure a complete understanding of the .fit(), .transform(), and .predict() methods. By the end of this webinar, the audience will have a solid understanding of the theory behind machine learning pipelines and practical examples of using them effectively in their projects.</p>"
 
-summary: "A 2‑hour workshop on machine learning pipelines at PyData Global, focusing on data leakage prevention and efficient model building with scikit-learn and other tools."
+summary: "**PyData Global:** A 2‑hour workshop on machine learning pipelines at PyData Global, focusing on data leakage prevention and efficient model building with scikit-learn and other tools."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

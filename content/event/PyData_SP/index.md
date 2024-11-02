@@ -14,7 +14,7 @@ location: "São Paulo - Brazil (remote)"
 
 abstract: "Workshop highlighting data science techniques for analyzing categorical data, such as chi‑square, Cramér’s V, CA, MCA, entropy, information gain, and so on."
 
-summary: "Workshop highlighting data science techniques for analyzing categorical data, such as chi‑square, Cramér’s V, CA, MCA, entropy, information gain, and so on."
+summary: "**PyData SP:** Workshop highlighting data science techniques for analyzing categorical data, such as chi‑square, Cramér’s V, CA, MCA, entropy, information gain, and so on."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

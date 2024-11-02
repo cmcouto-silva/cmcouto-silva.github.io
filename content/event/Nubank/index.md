@@ -1,10 +1,10 @@
 ---
-title: "Análises de associação: como extrair valor de dados categóricos"
+title: "Ciência de Dados Aplicada a Múltiplos Setores: Desafios, Soluções e Aprendizados"
 
-event: PyData SP
+event: Nubank Meetup
 event_url: ""
 
-location: "São Paulo - Brazil (remote)" 
+location: "Brazil (remote)" 
 # address:
 #   street: 450 Serra Mall
 #   city: Stanford
@@ -12,13 +12,15 @@ location: "São Paulo - Brazil (remote)"
 #   postcode: '94305'
 #   country: United States
 
-abstract: "Workshop highlighting data science techniques for analyzing categorical data, such as chi‑square, Cramér’s V, CA, MCA, entropy, information gain, and so on."
+abstract: "I talked about my journey as a data scientist in different sectors and how I used various techniques, from linear regressions to more complex
+methods like neural networks, in a creative and practical way."
 
-summary: "Workshop highlighting data science techniques for analyzing categorical data, such as chi‑square, Cramér’s V, CA, MCA, entropy, information gain, and so on."
+summary: "**Meetup Nubank:** I talked about my journey as a data scientist in different sectors and how I used various techniques, from linear regressions to more complex
+methods like neural networks, in a creative and practical way."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2022-06-25'
+date: '2024-10-29'
 # date_end: '2022-06-25T15:00:00Z'
 all_day: false
 
@@ -35,13 +37,8 @@ featured: true
 links:
   - icon: github
     icon_pack: fab
-    name: Code
-    url: https://github.com/cmcouto-silva/Talks/tree/main/PyDataSP
-    
-  - icon: file
-    icon_pack: fa
-    name: Certification
-    url: talks/PyDataSP.pdf
+    name: Event
+    url: https://www.linkedin.com/posts/nubank_nubank-meetup-datascience-activity-7254509404635496448-A1bo?utm_source=share&utm_medium=member_desktop
 
 url_code: ''
 url_pdf: ''

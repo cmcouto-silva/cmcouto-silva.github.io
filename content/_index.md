@@ -28,7 +28,7 @@ sections:
       title: Current experience
       items:
         ## -- UW -- ##
-        - title: Data Scientist Researcher
+        - title: Data Scientist & Postdoctoral Researcher
           company: UW-Madison - Top 15 public universities in the US
           company_url: 'https://gibbs-lab.wisc.edu/caina-max-couto-silva.html'
           company_logo: uw-madison
@@ -36,7 +36,6 @@ sections:
           date_start: '2024-08-01'
           date_end: ''
           description: |1-
-              Postdoctoral position.
               
               **Main activities:**  
               - Support database development, statistical analysis, and AI applications; write up research results; and travel to Brazil to represent UW in meetings with stakeholders.

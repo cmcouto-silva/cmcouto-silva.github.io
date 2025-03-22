@@ -13,15 +13,15 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
 
-  - block: skills
-    content:
-      title: Skills
-      text: 'I develop end-to-end AI solutions' 
+  # - block: skills
+  #   content:
+  #     title: Skills
+  #     text: 'I develop end-to-end AI solutions' 
       
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
-    design:
-      columns: '1'
+  #     # Choose a user to display skills from (a folder name within `content/authors/`)
+  #     username: admin
+  #   design:
+  #     columns: '1'
   
   - block: experience
     content:

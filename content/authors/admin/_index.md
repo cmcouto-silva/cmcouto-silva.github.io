@@ -19,7 +19,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Data Science Researcher
+role: Postdoctoral Data Scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -32,134 +32,132 @@ bio: PhD Data Scientist with 10+ years of experience.
 # Interests to show in About widget
 interests:
   - Data Science
-  - Machine Learning
-  - Deep Learning
   - Artificial Intelligence
+  - Machine Learning & Deep Learning
+  - Generative AI (LLMs)
 
 # Education to show in About widget
 education:
   courses:
     - course: MBA in Data Science & Analytics
       institution: Universidade de São Paulo
-      year: 2023
-    - course: PhD in Science
+    - course: PhD in Bioinformatics
       institution: Universidade de São Paulo
-      year: 2021
     - course: MSc in Science
       institution: Universidade de São Paulo
       year: 2016
 
-# Skills
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-skills:
-  - name: Programming
-    items:
+# # Skills
+# # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+# skills:
+#   - name: Programming
+#     items:
     
-      # Python
-      - name: Python
-        description: 'Pandas, Numpy, Scikit-learn, PyCaret, Matplotlib, Seaborn, Plotly, Folium, BeautifulSoup, Selenium, etc.'
-        icon: python
-        icon_pack: fab
-        percent: 100
+#       # Python
+#       - name: Python
+#         description: 'Pandas, Numpy, Scikit-learn, PyCaret, Matplotlib, Seaborn, Plotly, Folium, BeautifulSoup, Selenium, etc.'
+#         icon: python
+#         icon_pack: fab
+#         percent: 100
         
-      # SQL
-      - name: SQL
-        description: 'Create, modify and retrieve data from relational database manage systems (e.g. MySQL, Postgres)'
-        percent: 80
-        icon: database
-        icon_pack: fas
+#       # SQL
+#       - name: SQL
+#         description: 'Create, modify and retrieve data from relational database manage systems (e.g. MySQL, Postgres)'
+#         percent: 80
+#         icon: database
+#         icon_pack: fas
         
-      # R
-      - name: R
-        description: 'R base, data.table, tidyverse (e.g. dplyr, ggplot2), plotly, Rmarkdown, Bioconductor packages, and more…'
-        icon: chart-line
-        icon_pack: fas
-        percent: 60
+#       # R
+#       - name: R
+#         description: 'R base, data.table, tidyverse (e.g. dplyr, ggplot2), plotly, Rmarkdown, Bioconductor packages, and more…'
+#         icon: chart-line
+#         icon_pack: fas
+#         percent: 60
         
-      # Bash
-      - name: Bash scripting
-        description: 'All essential commands in bash, plus some knowledge with awk and sed.'
-        percent: 40
-        icon: linux
-        icon_pack: fab
+#       # Bash
+#       - name: Bash scripting
+#         description: 'All essential commands in bash, plus some knowledge with awk and sed.'
+#         percent: 40
+#         icon: linux
+#         icon_pack: fab
         
-  - name: Technologies
-    items:
+#   - name: Technologies
+#     items:
     
-      - name: Version control
-        description: 'Familiarity with git and GitHub (using git for all projects)'
-        percent: 90
-        icon: github
-        icon_pack: fab
+#       - name: Version control
+#         description: 'Familiarity with git and GitHub (using git for all projects)'
+#         percent: 90
+#         icon: github
+#         icon_pack: fab
     
-      - name: Cloud Platforms
-        description: 'Worked with AWS and GCP (e.g., data storage, BigQuery, and Vertex AI.)'
-        percent: 65
-        icon: cloud
-        icon_pack: fas
+#       - name: Cloud Platforms
+#         description: 'Worked with AWS and GCP (e.g., data storage, BigQuery, and Vertex AI.)'
+#         percent: 65
+#         icon: cloud
+#         icon_pack: fas
         
-      - name: APIs
-        description: 'API requests and API development using either Flask or FastAPI'
-        percent: 60
-        icon: code-pull-request
-        icon_pack: fas
+#       - name: APIs
+#         description: 'API requests and API development using either Flask or FastAPI'
+#         percent: 60
+#         icon: code-pull-request
+#         icon_pack: fas
         
-      - name: Docker
-        description: 'Create images for model and applications'
-        percent: 60
-        icon: docker
-        icon_pack: fab
+#       - name: Docker
+#         description: 'Create images for model and applications'
+#         percent: 60
+#         icon: docker
+#         icon_pack: fab
         
-      - name: Spark
-        description: 'Process big data with SparkSQL and build ML models with SparkMLlib'
-        percent: 85
-        icon: database
-        icon_pack: fas
+#       - name: Spark
+#         description: 'Process big data with SparkSQL and build ML models with SparkMLlib'
+#         percent: 85
+#         icon: database
+#         icon_pack: fas
         
-  - name: Capabilities
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Data preprocessing
-        description: 'Good problem-solver for data wrangling challenges. Familiar with data cleaning and feature-engineering for ML tasks.'
-        percent: 100
-        icon: magnifying-glass-chart
-        icon_pack: fas
+#   - name: Capabilities
+#     color: '#eeac02'
+#     color_border: '#f0bf23'
+#     items:
+#       - name: Data preprocessing
+#         description: 'Good problem-solver for data wrangling challenges. Familiar with data cleaning and feature-engineering for ML tasks.'
+#         percent: 100
+#         icon: magnifying-glass-chart
+#         icon_pack: fas
         
-      - name: Data visualization
-        description: "Advanced experience building data visualizations using Python and R (specially static figures, but I'm also familiar with interactive approaches)."
-        percent: 90
-        icon: chart-area
-        icon_pack: fas
+#       - name: Data visualization
+#         description: "Advanced experience building data visualizations using Python and R (specially static figures, but I'm also familiar with interactive approaches)."
+#         percent: 90
+#         icon: chart-area
+#         icon_pack: fas
         
-      - name: Statistical Analysis
-        description: 'Descriptive and inferential statistics, incorporating theory into practical applications and in the AI projects I worked on.'
-        percent: 85
-        icon: square-root-variable
-        icon_pack: fas
+#       - name: Statistical Analysis
+#         description: 'Descriptive and inferential statistics, incorporating theory into practical applications and in the AI projects I worked on.'
+#         percent: 85
+#         icon: square-root-variable
+#         icon_pack: fas
         
-  - name: Capabilities
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
+#   - name: Capabilities
+#     color: '#eeac02'
+#     color_border: '#f0bf23'
+#     items:
     
-      - name: Machine Learning
-        description: "Build ML models for regression, classification, and clustering problems, as well as recommender systems, and time series models. I'm also familiar with autoML."
-        percent: 95
-        icon: desktop
-        icon_pack: fas
+#       - name: Machine Learning
+#         description: "Build ML models for regression, classification, and clustering problems, as well as recommender systems, and time series models. I'm also familiar with autoML."
+#         percent: 95
+#         icon: desktop
+#         icon_pack: fas
         
-      - name: Deep Learning
-        description: 'Currently studying and applying tensorflow (keras) and pytorch'
-        percent: 30
-        icon: diagram-project
-        icon_pack: fas
+#       - name: Deep Learning
+#         description: 'Currently studying and applying tensorflow (keras) and pytorch'
+#         percent: 30
+#         icon: diagram-project
+#         icon_pack: fas
 
-      - name: Model deployment
-        description: "I've deployed models using Databricks, Dataiku, MLflow, Docker, FastAPI/Flask, alongside the version control and best coding practices."
-        percent: 70
-        icon: cloud-arrow-up
-        icon_pack: fas
+#       - name: Model deployment
+#         description: "I've deployed models using Databricks, Dataiku, MLflow, Docker, FastAPI/Flask, alongside the version control and best coding practices."
+#         percent: 70
+#         icon: cloud-arrow-up
+#         icon_pack: fas
 
 
 # Social/Academic Networking

@@ -33,8 +33,9 @@ bio: PhD Data Scientist with 10+ years of experience.
 interests:
   - Data Science
   - Artificial Intelligence
-  - Machine Learning & Deep Learning
   - Generative AI (LLMs)
+  - Machine Learning Engineering
+
 
 # Education to show in About widget
 education:
@@ -43,9 +44,6 @@ education:
       institution: Universidade de São Paulo
     - course: PhD in Bioinformatics
       institution: Universidade de São Paulo
-    - course: MSc in Science
-      institution: Universidade de São Paulo
-      year: 2016
 
 # # Skills
 # # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons

@@ -28,7 +28,7 @@ sections:
       title: Current experience
       items:
         ## -- UW -- ##
-        - title: Data Scientist & Postdoctoral Researcher
+        - title: Postdoctoral Data Scientist
           company: UW-Madison - Top 15 public universities in the US
           company_url: 'https://gibbs-lab.wisc.edu/caina-max-couto-silva.html'
           company_logo: uw-madison
@@ -36,15 +36,17 @@ sections:
           date_start: '2024-08-01'
           date_end: ''
           description: |1-
+
+              - Currently developing a RAG-based **text-to-SQL AI** agent that allows users to interact with the database using Slack.
+              - Developed **[SQLDeps](https://sqldeps.readthedocs.io/)**: an **open-source Python package leveraging LLMs** to automatically extract table and column dependencies and outputs from complex SQL scripts **100X faster and >300X cheaper** than human expert labor.
+              - Developed and optimized **cattle mapping** using cutting-edge deep learning models on high‑resolution satellite imagery, providing actionable intelligence to combat Amazon deforestation.
+              - Engineered a pioneering **machine learning classifier** to assess data quality from farm properties at scale, implementing feature engineering on geospatial and entity data that enabled scalable data integrity checks for the first time.
+              - **Lead UW‑Madison students** in research projects, mentoring on machine learning and computer vision techniques.
+              - **Automated database workflows**, reducing manual intervention and boosting team productivity.
+              - Delivered private **data analysis reports** for stakeholders in Brazil and the USA.
               
-              **Main activities:**  
-              - Support database development, statistical analysis, and AI applications; write up research results; and travel to Brazil to represent UW in meetings with stakeholders.
-              
-              **Deliveries:**
-              - Automation of multiple processes in database development, reducing the time of manual intervention.
-              - An ML classifier to assess data quality at scale, allowing for the first-time scalable quality check.
-              - Enhance a deep Learning model to count cattle in protected areas using high-resolution imagery. In collaboration with Google, this project empowers Brazilian prosecutors to act against non-compliant farmers, thereby reducing Amazon's deforestation.
-              
+              **Tools:** Python, SQL, GitHub/GitLab, git, AWS, LangChain, PyTorch, YOLO, LLMs, Streamlit, machine learning libraries (e.g., scikit-learn), data visualization libraries, etc.
+
     design:
       columns: '2'
 
